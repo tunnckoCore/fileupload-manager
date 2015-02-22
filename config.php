@@ -7,11 +7,8 @@
  * @link        http://www.charlike.pw/fileupload-manager/
  */
 session_start();
-mb_internal_encoding('UTF-8');
-// error_reporting(E_ALL ^ E_NOTICE); //without notices
-
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
+// mb_internal_encoding('UTF-8');
+error_reporting(E_ALL ^ E_NOTICE); //without notices
 
 /**
  * Define project constants

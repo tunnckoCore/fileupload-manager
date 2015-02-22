@@ -13,7 +13,7 @@ error_reporting(E_ALL ^ E_NOTICE); //without notices
 /**
  * Define project constants
  */
-define('MANAGER_URI', 'http://localhost:8002/'); //site uri is required
+define('MANAGER_URI', 'http://www.charlike.pw/telerik/FileUpload-Manager/'); //site uri is required
 //define('MANAGER_URI', 'http://telerik/fileupload-manager-last/'); //site uri is required
 
 define('DS', DIRECTORY_SEPARATOR);

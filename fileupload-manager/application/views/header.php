@@ -63,7 +63,7 @@ ksort($templateData['_TELERIK_DEMOS']);
 
     </head>
     <body>
-        <header class="tm-global-header">
+        <header class="tm-global-header navbar-fixed-top">
             <h1 class="tm-global-hide"><?php echo MANAGER_APP_NAME; ?></h1>
             <div class="navbar navbar-default navbar-inverse">
                 <div class="navbar-header">

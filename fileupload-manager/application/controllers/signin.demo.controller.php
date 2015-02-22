@@ -42,11 +42,9 @@ if (matches($fumUsername, $fumPassword)) {
 /**
  * Custom Stuff
  */
-
 $normalizedUsername = str_replace(" ", "-", $fumUsername);
 $userFolder = MANAGER_USERS . $normalizedUsername;
 $realUser = realpath($userFolder);
-
 $userPassword = tds5api($fumPassword); //custom own hash algo
 $userPasswordFile = $userPassword . '.pwd';
 

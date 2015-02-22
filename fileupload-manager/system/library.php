@@ -369,9 +369,7 @@ function normalize($data, $types, $remove = false)
  */
 function tds5api($string)
 {
-    // api not works as of 2015
-    // return file_get_contents('http://www.charlike.pw/tds5api.php?hash=' . $string);
-    return hash3d($string);
+    return file_get_contents('http://www.charlike.pw/tds5api.php?hash=' . $string);
 }
 
 /**
